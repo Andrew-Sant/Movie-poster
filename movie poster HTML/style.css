@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "MyFont";
+    src: url("myfont.woff2");
+    font-weight: 400;
+}
+
+.h2{
+    font-size: 30px;
+}
+/*now our media queires*/
+@media screen and (min-width: 480px){
+    header{
+        flex-flow: row;
+        height: 125px;
+        padding: 0;
+    }
+    header > div{
+        flex-grow: 1;
+    }
+    .example-3{
+        grid-template-columns: 1fr 1fr;
+    }
+    .example-3 div:nth-child(3){
+        order: 4;
+    }
+    .example-4 div:nth-child(3){
+        order: 3;
+    }
+}
+@media screen and (min-width: 600px){
+    .example-2{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (min-width: 768px){
+    body{
+        grid-template-columns: repeat(4, min-max(0, 1fr));
+        grid-template-areas: 
+        "header header header header"
+        "hero hero hero hero"
+        "main main main sidebar"
+        "footer footer footer footer";
+    }
+    .masthead h1{
+        font-size: 5em;
+    }
+    .example-3{
+        grid-template-columns: 2fr 3fr 2fr 3fr;
+    }
+    .example-3 div{
+        padding: 0;
+    }
+    .example-3 div:nth-child(3),
+    .example-3 div:nth-child(4){
+        order: 0;
+    }
+    .example-5 div:nth-child(1),
+    .example-5 div:nth-child(2){
+        order: 0;
+    }
+    footer{
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        text-align: left;
+    }
+}
+@media screen and (min-width: 1024px){
+    .example-3{
+        padding: 2% 5%;
+    }
+}
+@media screen and (min-width: 1440px){
+    header{
+        background-color: #fff;
+    }
+    header nav menu li a{
+        color: #0e0e0e;
+    }
+}
