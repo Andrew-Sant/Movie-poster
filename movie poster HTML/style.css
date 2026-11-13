@@ -14,11 +14,38 @@
     font-size: 2vh;
 }
 /*movie title*/
-.movielogo{
+.BACK{
     position: absolute;
     display: inline-block;
     top: 80px;
     left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 6vh;
+}
+.TO{
+    position: absolute;
+    display: inline-block;
+    top: 120px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+.THE{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+.FUTURE{
+    position: absolute;
+    display: inline-block;
+    top: 120px;
+    left: 8%;
     margin: 10%;
     text-align: center;
     font-size: 6vh;
@@ -35,15 +62,233 @@ main > div > p{
     color: #d3d3d3;
 }
 /* the credits I am making white and then also placing it at the bottom of the page */
-.credits{
+/* .credits{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     height: 300vh;  
     font-size: 2vh; 
+} */
+.main h2{
+    position: absolute;
+    display: inline-block;
+    top: 1000px;
+    left: 20%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
 }
-.credits span{
-    text-align: left;
+
+.Starring{
+    position: absolute;
+    display: inline-block;
+    top: 1500px;
+    left: 70%;
+    margin: 10%;
+    text-align: center;
+    font-size: 1vh;
+}
+
+.MICHAEL{
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    top: 1500px;
+    left: 75%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.CHRISTOPHER{
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    top: 1550px;
+    left: 45%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.Written{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.by{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.ROBERT{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.MUSIC{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.by{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.ALAN{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+
+.Produced{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.by2{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.BOB{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.and{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.NEIL{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.Executive{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.SPEILBERG{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.and2{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.FRANK{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.Directed{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+.by3{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.ROBERT2{
+    position: absolute;
+    display: inline-block;
+    top: 140px;
+    left: 5%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
 }
 .credits{
     color: #d3d3d3;
