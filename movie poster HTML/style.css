@@ -378,3 +378,25 @@ img{
     max-width: 100%;
     height: auto;
 }
+.pg{
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    top: 1700px;
+    left: 48%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.amblin{
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    top: 1720px;
+    left: 60%;
+    margin: 10%;
+    text-align: center;
+    font-size: 3vh;
+}
+
