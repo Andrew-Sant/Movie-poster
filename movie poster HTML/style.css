@@ -2,8 +2,13 @@
     font-family: yellowRabbit;
     src: url("../fonts/Yellowrabbit.otf");
 }
-intro{
+.intro{
     font-family: "yellowRabbit", sans-serif;
+}
+
+.movielogo{
+    color: #C76E00;
+    font-style: italic;
 }
 .intro h1{
     position: absolute;
@@ -13,12 +18,13 @@ intro{
     margin: 10%;
     text-align: center;
     color: #fff;
-    font-size: 2vh;
+    font-size: 1vh;
 }
 /*movie title*/
 .BACK{
     position: absolute;
     display: inline-block;
+    font-size: 20vh;
     top: 80px;
     left: 5%;
     margin: 10%;
@@ -52,14 +58,80 @@ intro{
     text-align: center;
     font-size: 6vh;
 }
-/* movie poster text i made white and placed it in a certain place on the page*/
+/*movie poster text i made white and placed it in a certain place on the page*/
 .movie-poster{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    height: 150vh;
-    padding-left: 5vh;
+    color: #d3d3d3;
 }
+.move{
+    position: absolute;
+    display: inline-block;
+    top: 500px;
+    left: 1%;
+    margin: 3%;
+    font-size: 1vh;
+}
+.He{
+    position: absolute;
+    display: inline-block;
+    top: 520px;
+    left: 1%;
+    margin: 3%;
+    font-size: 1vh;
+}
+.for{
+    position: absolute;
+    display: inline-block;
+    top: 530px;
+    left: 1%;
+    margin: 3%;
+    font-size: 1vh;
+}
+
+.He2{
+    position: absolute;
+    display: inline-block;
+    top: 545px;
+    left: 1%;
+    margin: 3%;
+    font-size: 1vh;
+}
+
+.for2{
+    position: absolute;
+    display: inline-block;
+    top: 555px;
+    left: 1%;
+    margin: 3%;
+    font-size: 1vh;
+}
+
+.Then{
+    position: absolute;
+    display: inline-block;
+    top: 565px;
+    left: 1%;
+    margin: 3%;
+    font-size: 1vh;
+}
+
+.he3{
+    position: absolute;
+    display: inline-block;
+    top: 575px;
+    left: 1%;
+    margin: 3%;
+    font-size: 1vh;
+}
+
+.time{
+    position: absolute;
+    display: inline-block;
+    top: 585px;
+    left: 1%;
+    margin: 3%;
+    font-size: 1vh;
+}
+
 main > div > p{
     color: #d3d3d3;
 }
@@ -306,160 +378,3 @@ img{
     max-width: 100%;
     height: auto;
 }
-/*now our media queires*/
-
-@media screen and (min-width: 375px){
-    .intro{
-        flex-direction: row;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-}
-@media screen and (min-width: 375px){
-    .movie-poster{
-        flex-direction: row;
-        max-width: 1200px;
-        height: 1px;
-        margin: 0 auto;
-    }
-}
-@media screen and (min-width: 375px){
-    .credits{
-        flex-direction: row;
-        max-width: 1200px;
-        height: 1px;
-        margin: 0 auto;
-    }
-}
-
-
-@media screen and (min-width: 768px){
-    .intro{
-        flex-direction: row;
-        max-width: 1200px;
-        height: 1px;
-        margin: 0 auto;
-    }
-}
-
-
-@media screen and (min-width: 768px){
-    .movie-poster{
-        flex-direction: row;
-        max-width: 1200px;
-        height: 1px;
-        margin: 0 auto;
-    }
-}
-
-
-@media screen and (min-width: 768px){
-    .credits{
-        flex-direction: row;
-        max-width: 1200px;
-        height: 1px;
-        margin: 0 auto;
-    }
-}
-
-
-
-@media screen and (min-width: 1200px){
-    .into{
-        flex-direction: row;
-        max-width: 1200px;
-        height: 1px;
-        margin: 0 auto;
-    }
-}
-
-
-@media screen and (min-width: 1200px){
-    .movie-poster{
-        flex-direction: row;
-        max-width: 1200px;
-        height: 1px;
-        margin: 0 auto;
-    }
-}
-
-
-@media screen and (min-width: 1200px){
-    .credits{
-        flex-direction: row;
-        max-width: 1200px;
-        height: 1px;
-        margin: 0 auto;
-    }
-}
- 
-@media screen and (min-width: 480px){
-    .intro{
-        flex-flow: row;
-        height: 125px;
-        padding: 0;
-    }
-    header > div{
-        flex-grow: 1;
-    }
-    .example-3{
-        grid-template-columns: 1fr 1fr;
-    }
-    .example-3 div:nth-child(3){
-        order: 4;
-    }
-    .example-4 div:nth-child(3){
-        order: 3;
-    }
-} 
-/*
-@media screen and (min-width: 600px){
-    .example-2{
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-@media screen and (min-width: 768px){
-    body{
-        grid-template-columns: repeat(4, min-max(0, 1fr));
-        grid-template-areas: 
-        "header header header header"
-        "hero hero hero hero"
-        "main main main sidebar"
-        "footer footer footer footer";
-    }
-    .masthead h1{
-        font-size: 5em;
-    }
-    .example-3{
-        grid-template-columns: 2fr 3fr 2fr 3fr;
-    }
-    .example-3 div{
-        padding: 0;
-    }
-    .example-3 div:nth-child(3),
-    .example-3 div:nth-child(4){
-        order: 0;
-    }
-    .example-5 div:nth-child(1),
-    .example-5 div:nth-child(2){
-        order: 0;
-    }
-    footer{
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        text-align: left;
-    }
-}
-@media screen and (min-width: 1024px){
-    .example-3{
-        padding: 2% 5%;
-    }
-}
-@media screen and (min-width: 1440px){
-    header{
-        background-color: #fff;
-    }
-    header nav menu li a{
-        color: #0e0e0e;
-    }
-} */
