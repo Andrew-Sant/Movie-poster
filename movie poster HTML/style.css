@@ -69,11 +69,11 @@ main > div > p{
     height: 300vh;  
     font-size: 2vh; 
 } */
-.main h2{
+.credits h2{
     position: absolute;
     display: inline-block;
-    top: 1000px;
-    left: 20%;
+    top: 1500px;
+    left: 50%;
     margin: 10%;
     text-align: center;
     font-size: 3vh;
@@ -82,7 +82,7 @@ main > div > p{
 .Starring{
     position: absolute;
     display: inline-block;
-    top: 1500px;
+    top: 1515px;
     left: 70%;
     margin: 10%;
     text-align: center;
@@ -114,89 +114,88 @@ main > div > p{
 .Written{
     position: absolute;
     display: inline-block;
-    top: 140px;
-    left: 5%;
+    top: 1600px;
+    left: 17%;
     margin: 10%;
     text-align: center;
-    font-size: 3vh;
+    font-size: 1vh;
 }
 
 .by{
     position: absolute;
     display: inline-block;
-    top: 140px;
-    left: 5%;
+    top: 1610px;
+    left: 17%;
     margin: 10%;
     text-align: center;
-    font-size: 3vh;
+    font-size: 1vh;
 }
 
 .ROBERT{
     position: absolute;
     display: inline-block;
-    top: 140px;
-    left: 5%;
+    top: 1600px;
+    left: 19%;
     margin: 10%;
     text-align: center;
     font-size: 3vh;
 }
 
-.MUSIC{
+.Music{
     position: absolute;
     display: inline-block;
-    top: 140px;
-    left: 5%;
+    top: 1605px;
+    left: 44%;
     margin: 10%;
     text-align: center;
-    font-size: 3vh;
-}
-
-.by{
-    position: absolute;
-    display: inline-block;
-    top: 140px;
-    left: 5%;
-    margin: 10%;
-    text-align: center;
-    font-size: 3vh;
-}
-
-.ALAN{
-    position: absolute;
-    display: inline-block;
-    top: 140px;
-    left: 5%;
-    margin: 10%;
-    text-align: center;
-    font-size: 3vh;
-}
-
-
-.Produced{
-    position: absolute;
-    display: inline-block;
-    top: 140px;
-    left: 5%;
-    margin: 10%;
-    text-align: center;
-    font-size: 3vh;
+    font-size: 1vh;
 }
 
 .by2{
     position: absolute;
     display: inline-block;
-    top: 140px;
-    left: 5%;
+    top: 1612px;
+    left: 44%;
+    margin: 10%;
+    text-align: center;
+    font-size: 1vh;
+}
+
+.ALAN{
+    position: absolute;
+    display: inline-block;
+    top: 1600px;
+    left: 47%;
     margin: 10%;
     text-align: center;
     font-size: 3vh;
 }
 
+.Produced{
+    position: absolute;
+    display: inline-block;
+    top: 1605px;
+    left: 61%;
+    margin: 10%;
+    text-align: center;
+    font-size: 1vh;
+}
+
+.by3{
+    position: absolute;
+    display: inline-block;
+    top: 1612px;
+    left: 61%;
+    margin: 10%;
+    text-align: center;
+    font-size: 1vh;
+}
+
 .BOB{
     position: absolute;
     display: inline-block;
-    top: 140px;
-    left: 5%;
+    top: 1600px;
+    left: 64%;
     margin: 10%;
     text-align: center;
     font-size: 3vh;
@@ -205,18 +204,19 @@ main > div > p{
 .and{
     position: absolute;
     display: inline-block;
-    top: 140px;
-    left: 5%;
+    top: 1615px;
+    left: 72%;
     margin: 10%;
     text-align: center;
-    font-size: 3vh;
+    font-size: 1vh;
 }
 
 .NEIL{
     position: absolute;
     display: inline-block;
-    top: 140px;
-    left: 5%;
+    white-space: nowrap;
+    top: 1600px;
+    left: 75%;
     margin: 10%;
     text-align: center;
     font-size: 3vh;
@@ -225,18 +225,28 @@ main > div > p{
 .Executive{
     position: absolute;
     display: inline-block;
-    top: 140px;
-    left: 5%;
+    top: 1650px;
+    left: 35%;
     margin: 10%;
     text-align: center;
-    font-size: 3vh;
+    font-size: 1vh;
 }
 
-.SPEILBERG{
+.Producers{
     position: absolute;
     display: inline-block;
-    top: 140px;
-    left: 5%;
+    top: 1660px;
+    left: 35%;
+    margin: 10%;
+    text-align: center;
+    font-size: 1vh;
+}
+
+.SPIELBERG{
+    position: absolute;
+    display: inline-block;
+    top: 1645px;
+    left: 38%;
     margin: 10%;
     text-align: center;
     font-size: 3vh;
@@ -245,18 +255,19 @@ main > div > p{
 .and2{
     position: absolute;
     display: inline-block;
-    top: 140px;
-    left: 5%;
+    top: 1660px;
+    left: 70%;
     margin: 10%;
     text-align: center;
-    font-size: 3vh;
+    font-size: 1vh;
 }
 
 .FRANK{
     position: absolute;
     display: inline-block;
-    top: 140px;
-    left: 5%;
+    white-space: nowrap;
+    top: 1645px;
+    left: 75%;
     margin: 10%;
     text-align: center;
     font-size: 3vh;
@@ -265,27 +276,27 @@ main > div > p{
 .Directed{
     position: absolute;
     display: inline-block;
-    top: 140px;
-    left: 5%;
+    top: 1670px;
+    left: 45%;
     margin: 10%;
     text-align: center;
-    font-size: 3vh;
+    font-size: 1vh;
 }
-.by3{
+.by4{
     position: absolute;
     display: inline-block;
-    top: 140px;
-    left: 5%;
+    top: 1680px;
+    left: 45%;
     margin: 10%;
     text-align: center;
-    font-size: 3vh;
+    font-size: 1vh;
 }
-
 .ROBERT2{
     position: absolute;
     display: inline-block;
-    top: 140px;
-    left: 5%;
+    white-space: nowrap;
+    top: 1670px;
+    left: 48%;
     margin: 10%;
     text-align: center;
     font-size: 3vh;
