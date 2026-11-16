@@ -5,11 +5,12 @@
 .intro{
     font-family: "yellowRabbit", sans-serif;
 }
-
+/* movie color for the logo*/
 .movielogo{
     color: #C76E00;
     font-style: italic;
 }
+/* moving the intro sign around*/
 .intro h1{
     position: absolute;
     display: inline-block;
@@ -378,6 +379,7 @@ img{
     max-width: 100%;
     height: auto;
 }
+/*movie logos by the studios and if it is pg or not logo*/
 .pg{
     position: absolute;
     display: inline-block;
